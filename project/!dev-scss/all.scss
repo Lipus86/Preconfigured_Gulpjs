@@ -1,0 +1,34 @@
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+// Import Bootstrap for Sass
+@import "bootstrap";
+// Import custom mixins  
+@import 'components/mixins';
+// Import sprites styles 
+@import 'components/sprite-png';
+@import 'components/sprite-svg';
+
+
+
+.btn-calendar {
+    padding-left: 40px;
+    position: relative;
+    &:before {
+        content:'';
+        position: absolute;
+        top: 3px;
+        left: 5px;
+        @include svg-sprite($svg-calendar-icon)
+    }
+}
+
+
+
+.icon-svg {
+    display: block;
+    @include svg-sprite($svg-heading-icon);
+}
+.icon-png {
+    display: block;
+    @include sprite($s-badge);
+}
