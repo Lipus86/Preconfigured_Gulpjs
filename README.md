@@ -12,7 +12,7 @@
 
 ## How to use
 
-1. Download *gulp* and *project* folder
+1. Download `gulp` and `project` folder
 2. Configure paths in `gulpfile.js` (paths object)
 3. Run `npm install` in gulp folder
 4. Run `gulp` for starting work
@@ -24,7 +24,7 @@
 
 ### Sprite
 
-1. Put image in `!dev-images/sprite-png(or sprite-svg)` folder
+1. Put image in `!dev-images/sprite-png(-svg)` folder
 2. In SCSS:
   * for png use this mixin:
     `@include sprite($s-*NAME_OF_SOURCE_IMAGE*)`;
