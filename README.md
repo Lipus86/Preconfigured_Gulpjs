@@ -16,7 +16,9 @@
 2. Configure paths in gulpfile.js (paths object)
 3. Run npm install in gulp folder
 4. Run gulp for starting work
+
 ...
+
 &#8734;.  Run gulp finish
 
 
