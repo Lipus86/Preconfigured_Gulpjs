@@ -24,7 +24,7 @@
 
 ### Sprite
 
-1. Put image in !dev-images folder
+1. Put image in `!dev-images/sprite-png(or sprite-svg)` folder
 2. In SCSS:
   * for png use this mixin:
     `@include sprite($s-*NAME_OF_SOURCE_IMAGE*)`;
